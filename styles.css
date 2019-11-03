@@ -1,0 +1,73 @@
+             BODY {
+                 margin:0;
+                 font-size:80%;
+             }
+         
+             .marco {
+                 width:1000px;
+                 margin:10px auto 10px auto; /* Centrado horizontal */
+             }
+ 
+             .cabecera {
+                 border:solid orange 1px;
+                 padding:10px;
+             }
+ 
+             .cuerpo {
+                 padding:10px 0 10px 0;
+                 overflow-x:hidden;
+                 overflow-y:auto; /* Hace que se ajuste a la columna más alta en ff */
+              height:100%; /* Hace que se ajuste a la columna más alta  en ie6 */
+             }
+             .table {
+                width: 100%;             
+                border: 1px solid #000;
+                border-collapse: collapse;
+                margin: 10px auto 10px auto;
+
+            }
+            .th, td{
+                font-size: 20px;
+                height: 30px;
+                text-align: left;
+                vertical-align: center;
+                border: 1px solid rgb(0, 0, 0);
+                border-collapse: collapse;
+        
+            }
+            .td1{
+                background-color: rgb(255, 255, 255);
+            }
+            .td2{
+                background-color: rgb(202, 202, 202);
+            }
+            .td3{
+                background-color: rgb(153, 153, 153);
+            }
+            .td4{
+                background-color: rgb(122, 122, 122);
+            }
+            .td5{
+                background-color: rgb(109, 109, 109);
+            }
+            .td6{
+                background-color: rgb(97, 97, 97);
+            }
+            .td7{
+                background-color: rgb(87, 87, 87);
+            }
+            .td8{
+                background-color: rgb(71, 71, 71);
+            }
+            .td9{
+                background-color: rgb(48, 48, 48);
+            }
+            .td10{
+                background-color: rgb(0, 0, 0);   
+            }
+             .pie {
+                 border:solid orange 1px;
+                 padding:10px;
+                 text-align:center;
+                 font-size:80%;
+             }
